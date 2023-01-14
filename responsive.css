@@ -15,6 +15,7 @@ form.mobile-block {
 form.mobile-block input {
     border-radius: 30px !IMPORTANT;
     text-align: center;
+    min-height: 50px  !important;
 }
 
 form.mobile-block input:last-child {
