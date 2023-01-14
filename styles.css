@@ -25,9 +25,10 @@ html {
 }
 form {
   display: flex;
+}
+form {
   justify-content: center;
 }
-
 
 
 
