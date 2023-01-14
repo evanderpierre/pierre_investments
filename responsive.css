@@ -1,0 +1,24 @@
+@media only screen and (max-width: 992px) {
+
+.mobile-block * {
+    display: block !important;
+    max-width: 100%  !important;
+    width: 100%;
+}
+
+form.mobile-block {
+    width: 75%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form.mobile-block input {
+    border-radius: 30px !IMPORTANT;
+    text-align: center;
+}
+
+form.mobile-block input:last-child {
+    margin-top: 1rem;
+}
+
+} 
