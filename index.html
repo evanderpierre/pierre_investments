@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre Investments</title>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="/loader.css">
+
+</head>
+
+<body>
+    <section class="container">
+        <section class="wrapper">
+            <div class="introduction">
+                <div class="banter-loader">
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                    <div class="banter-loader__box"></div>
+                </div>
+
+                <h1 class="animate__bounceOutLeft">Pierre Investments</h1>
+                <h2>Coming Soon</h2>
+                <div class="input-group">
+
+                    <form><input type="email" class="input" id="Email" name="Email" placeholder="Enter Email"
+                            autocomplete="off">
+                        <input class="button--submit" value="Subscribe" type="submit"></form>
+                </div>
+                <p>Get Notified When We Launch</p>
+            </div>
+
+        </section>
+    </section>
+    <script>
+        function pic() {
+            var bgm = ['/images/bg1.jpg',
+                '/images/bg2.jpg',
+                '/images/bg3.jpg',
+                '/images/bg4.jpg',
+                '/images/bg5.jpg'
+            ];
+
+            $('body').css({
+                'background': 'url(' + bgm[Math.floor(Math.random() * bgm.length)] + ') no-repeat',
+            });
+        }
+        pic();
+    </script>
+
+
+</body>
+
+</html>
