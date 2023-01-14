@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:wght@300&display=swap'); 
 
 body {
-    /* background-color: #151515;
-    background: url('./images/patternbg.jpg');
-    background: hsla(312, 66%, 76%, 1);
-
-background: linear-gradient(90deg, hsla(312, 66%, 76%, 1) 0%, hsla(234, 93%, 67%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(312, 66%, 76%, 1) 0%, hsla(234, 93%, 67%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(312, 66%, 76%, 1) 0%, hsla(234, 93%, 67%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EA98DA", endColorstr="#5B6CF9", GradientType=1 ); */
+  
     color: white;
     display: block;
     display: flex;
@@ -19,12 +9,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EA98DA", en
     text-align: center;
     align-items: center;
     height: 100vh;
-    /* height: 1250px; */
-    /* background: #0f0c29;  /* fallback for old browsers 
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/* background: url('./images/bg1.jpg');
- */ 
+   
  background-size: cover !important;
 
 }
@@ -43,10 +28,7 @@ form {
   justify-content: center;
 }
 
-section.wrapper {
-  /* max-width: 1200px; */
-  
-}
+
 
 
  h1,h2,h3, h4,h5,h6 {
@@ -65,9 +47,7 @@ section.wrapper {
   text-transform: uppercase;
     font-weight: 800;
 }
- h1, h2, h3{
-
- }
+ 
  h3{
 font-size: 24px;
  }
@@ -75,11 +55,7 @@ font-size: 24px;
     font-family: 'Roboto Mono', sans-serif;
 margin: 0;
  }
- /* .introduction, form.estimator_form > div {
-    border-bottom: 2px solid white;
-    padding-bottom: 27px;
-    margin-bottom: 27px;
-} */
+
 
 * {
     box-sizing: border-box;
@@ -90,42 +66,7 @@ body, dd, dl, html, menu, ol, ul {
 }
 
   
-  /* Button
-  button {
-    font-size: 18px;
-    height: 70px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: Inter;
-    border: 0;
-    border-radius: 100px;
-    background-color: #42d959;
-    color: #ffffff;
-    width: 100%;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;font-weight: 500;
-  }
   
-  button:hover {
-    background-color: 0f8d22;
-    box-shadow: 0 0 20px #6fc5ff50;
-  }
-  
-  button:active {
-    background-color: #1ebc36;
-    transition: all 0.25s;
-    -webkit-transition: all 0.25s;
-    box-shadow: none;
-  }
-
-
-  button,
-  input[type=email],
-input[type=text],
-input[type=tel] {
-    border-radius: 5px;
-     border-radius: 36px; 
-  }*/
 
   .input-group {
     display: flex;
